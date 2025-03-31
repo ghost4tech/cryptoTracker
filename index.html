@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <input
+      id="cryptoName"
+      type="search"
+      placeholder="Enter Crypto Name e.g. 'bitcoin'"
+    /> -->
+      <select name="crypto" id="cryptoSelect">
+        <option value="bitcoin">bitcoin</option>
+        <option value="dogecoin">Dogecoin</option>
+        <option value="ethereum">Ethereum</option>
+      </select>
+      <select name="currency" id="currencySelect">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+      </select>
+      <button id="fetchBtn">Check</button>
+      <p id="info-area"></p>
+    </div>
+    <script src="/cryptoTracker/script.js"></script>
+  </body>
+</html>
